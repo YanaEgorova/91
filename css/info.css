@@ -1,0 +1,25 @@
+.info__wrapper {
+  background-image: url('../img/bg-2.jpeg');
+}
+.info {
+  padding: 5rem 2rem;
+  background: rgba( 0, 0, 0, 0.60 );
+  backdrop-filter: blur( 4px );
+  -webkit-backdrop-filter: blur( 4px );
+  border-radius: 10px;
+  border: 1px solid rgba( 255, 255, 255, 0.18 );
+}
+.info .text, .info .sub-title {
+  color: var(--sub-text-color);
+}
+.info .text {
+  margin-bottom: 0;
+}
+.info .img {
+  max-width: 100%;
+  margin-bottom: 4rem;
+  border-radius:1rem;
+}
+@media screen and (min-width: 1024px) {
+ 
+}
