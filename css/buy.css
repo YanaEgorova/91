@@ -4,7 +4,13 @@
 .buy__header-wrapper {
   background-color: var();
 }
-
+.label-block-fl {
+  flex-grow: 1;
+}
+.label-block {
+  display: flex;
+  justify-content: space-between;
+}
 
 .checkbox__label-wrap {
   display: flex;
